@@ -21,3 +21,22 @@ header{
     margin: auto;
     color: white; 
 }
+button.topreserve{
+    border: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px 40px;
+    display: block;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 90%;
+    margin: 300px 410px;
+    
+}
+
+.topreserve{
+    top:48%;
+    position:sticky;
+}
