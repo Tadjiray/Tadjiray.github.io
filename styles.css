@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/headerbackground.jpg");
+    height: 910px;
+}
+
+
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    opacity:0.90;
+    font-size:100px;
+    font-style:bold;
+    line-height:50px;
+    padding: 10px;
+    position:sticky;
+    top:35.3%;
+    text-align: center; 
+    margin: auto;
+    color: white; 
+}
