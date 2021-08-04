@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 header{
     text-align: center;
     background-size: cover;
@@ -6,37 +11,104 @@ header{
     height: 910px;
 }
 
-
 .title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: block;
+    display: inline-block;
     opacity:0.90;
     font-size:100px;
     font-style:bold;
-    line-height:50px;
-    padding: 10px;
+    line-height:80px;
+    padding: 10px 10px;
     position:sticky;
     top:35.3%;
     text-align: center; 
-    margin: auto;
+    margin: 0px;
     color: white; 
 }
 button.topreserve{
     border: none;
     color: white;
     background-color: black;
-    text-align: center;
     padding: 20px 40px;
     display: block;
     cursor: pointer;
     font-size: 28px;
     font-weight: bold;
     opacity: 90%;
-    margin: 300px 410px;
+    margin: 300px 0px 0px 410px;
+    top:48%;
+    position:sticky;
     
 }
 
-.topreserve{
-    top:48%;
-    position:sticky;
+.spicy{
+    background-image: url("images/spicy.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 949px;
+    height:900px;
+    display:inline-block;
+    margin: 0;
+    padding: 0;
 }
+
+.tryspicy{
+    background-color: black;
+    opacity: 0.8;
+    color: firebrick;
+    font-size:50px;
+    margin: 200px 180px 0px;
+    padding: 20px;
+    text-align: left;
+    display: block;
+}
+
+.spicy .tryspicytext{
+    opacity: 0.8;
+    background-color: black;
+    margin: 0px 180px;
+    padding: 20px;
+    color: white;
+    font-size:20px;
+    text-align: justify;
+    display: block;
+}
+
+#spicylist{
+    padding-left: 50px;
+    margin-left: 180px;
+}
+
+.handmade{
+    background-image: url("images/dough.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    width: 949px;
+    height:900px;
+    display:inline-block;
+    margin: 0;
+}
+
+.handmade .handmadetitle{
+    opacity: 0.8;
+    background-color: black;
+    margin: 200px 180px 0px;
+    padding: 20px;
+    color: white;
+    font-size:50px;
+    text-align: center;
+    display: block;
+}
+.handmade .handmadetext{
+    opacity: 0.8;
+    background-color: black;
+    margin: 0px 180px;
+    padding: 20px;
+    color: white;
+    font-size:20px;
+    text-align: justify;
+    display: block;
+}
+
+
